@@ -12,6 +12,11 @@ public class FloatData : ScriptableObject
         value += amount;
     }
 
+    public void ChangeValue(float amount)
+    {
+        value = amount;
+    }
+
     public void UpdateValueLimitZero(float amount)
     {
         if(value < 0)
