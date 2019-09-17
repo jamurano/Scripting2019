@@ -145,9 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb441458de2f94eaf9f8b972d4089b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: {fileID: 0}
+  speed: {fileID: 11400000, guid: 95306a083fcb243209c76e2ad32790f3, type: 2}
 --- !u!135 &19819738
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -455,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f48760e50d9c4b7780aec35cecb619d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameActionObj: {fileID: 0}
+  gameActionObj: {fileID: 11400000, guid: dc915c2a4d7fb4d78868000ad245b1c1, type: 2}
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -768,7 +766,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763794862}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -946,6 +944,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PowerUp
       objectReference: {fileID: 0}
+    - target: {fileID: 320328191801514829, guid: b7257e934cbf241aaa3208837ec62324,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 320328191801514802, guid: b7257e934cbf241aaa3208837ec62324,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1018,7 +1021,7 @@ PrefabInstance:
     - target: {fileID: 4183887061713554531, guid: db60225fbc4fa4688afc7196eff58995,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4183887061713554531, guid: db60225fbc4fa4688afc7196eff58995,
         type: 3}
@@ -1087,7 +1090,7 @@ PrefabInstance:
     - target: {fileID: 6600227089451471089, guid: ccd66cbba34834c9f9e6c49915c9bea8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6600227089451471089, guid: ccd66cbba34834c9f9e6c49915c9bea8,
         type: 3}
