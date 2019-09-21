@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{15FA4D2F-303A-3464-D1E2-A4F41F7AEA0C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Practice.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FloatData.cs">
     <Files>
-      <File FileName="Assets/Practice.cs" Line="29" Column="50" />
+      <File FileName="Assets/FloatData.cs" Line="15" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
