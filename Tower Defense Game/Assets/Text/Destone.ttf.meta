@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: fa6882936dd554c478d4bb561c3a294f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Destone
+  fontNames:
+  - Destone
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f4e5ed1670dc34b20b217f054acfb863, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
