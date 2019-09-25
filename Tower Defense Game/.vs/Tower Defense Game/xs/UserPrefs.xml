@@ -1,7 +1,10 @@
 ﻿<Properties StartupConfiguration="{15FA4D2F-303A-3464-D1E2-A4F41F7AEA0C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ManaBar.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TransformController.cs">
     <Files>
-      <File FileName="Assets/ManaBar.cs" Line="4" Column="6" />
+      <File FileName="Assets/ManaBar.cs" Line="13" Column="5" />
+      <File FileName="Assets/TransformController.cs" Line="14" Column="1" />
+      <File FileName="Assets/TriggerEventBehaviour.cs" Line="10" Column="36" />
+      <File FileName="Assets/FloatData.cs" Line="27" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
