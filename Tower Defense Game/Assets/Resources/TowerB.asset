@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: TowerB
   m_EditorClassIdentifier: 
   maxHealth: 50
-  speed: 2
+  speed: 0

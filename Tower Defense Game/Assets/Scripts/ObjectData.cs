@@ -7,7 +7,7 @@ public class ObjectData : MonoBehaviour
     public ObjectDefinition definition;
     public float maxHealth, currentHealth;
 
-    public float speed;
+    public float moveSpeed;
 
     void Start()
     {
@@ -15,16 +15,15 @@ public class ObjectData : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    // Update is called once per frame
     void Update()
     {
+
       if(currentHealth <= 0)
         {
             Destroy(gameObject);
-
-            var speedVector = new Vector2(speed, 0) * Time.deltaTime;
-            transform.Translate(speedVector);
         }
+
+        transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
     }
 
     void OnTriggerEnter(Collider other)
@@ -32,4 +31,5 @@ public class ObjectData : MonoBehaviour
         currentHealth = currentHealth - 10;
         Debug.Log("Took Damage!"); 
     }
+
 }

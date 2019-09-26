@@ -10,6 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b1034d0c22ca46bf8c4c79cd83f1ad0, type: 3}
-  m_Name: TowerA
+  m_Name: EnemyA
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 50
+  moveSpeed: 5
