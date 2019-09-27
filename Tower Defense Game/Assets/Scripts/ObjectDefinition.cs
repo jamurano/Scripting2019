@@ -6,5 +6,4 @@ using UnityEngine;
 public class ObjectDefinition : ScriptableObject
 {
     public float maxHealth;
-    public float moveSpeed;
 }

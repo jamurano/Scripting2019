@@ -7,8 +7,6 @@ public class ObjectData : MonoBehaviour
     public ObjectDefinition definition;
     public float maxHealth, currentHealth;
 
-    public float moveSpeed;
-
     void Start()
     {
         maxHealth = definition.maxHealth;
@@ -22,8 +20,6 @@ public class ObjectData : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
     }
 
     void OnTriggerEnter(Collider other)

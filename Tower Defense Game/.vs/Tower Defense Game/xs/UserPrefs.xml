@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{15FA4D2F-303A-3464-D1E2-A4F41F7AEA0C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ObjectData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ObjectDefinition.cs">
     <Files>
-      <File FileName="Assets/Scripts/ObjectData.cs" Line="37" Column="1" />
-      <File FileName="Assets/Scripts/ObjectDefinition.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/ObjectData.cs" Line="27" Column="43" />
+      <File FileName="Assets/Scripts/ObjectDefinition.cs" Line="9" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
