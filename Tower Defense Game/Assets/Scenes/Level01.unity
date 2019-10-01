@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44124e1cd91e4b7b822f9f764bfb814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  definition: {fileID: 11400000, guid: 9e58d739b1b584536870036d257c7b58, type: 2}
+  definition: {fileID: 0}
   maxHealth: 0
   currentHealth: 0
 --- !u!54 &7783444
@@ -244,7 +244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7783441}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 56, y: 8, z: -1}
+  m_LocalPosition: {x: 57.4, y: 8, z: -1}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -646,7 +646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44124e1cd91e4b7b822f9f764bfb814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  definition: {fileID: 11400000, guid: 99eb52c32e9bb4f2abdd30c4497ab8af, type: 2}
+  definition: {fileID: 0}
   maxHealth: 0
   currentHealth: 0
 --- !u!136 &98469648
@@ -4750,7 +4750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44124e1cd91e4b7b822f9f764bfb814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  definition: {fileID: 11400000, guid: d4a50070a05be4a589ca12de83a598ab, type: 2}
+  definition: {fileID: 0}
   maxHealth: 0
   currentHealth: 0
 --- !u!1 &897678892
@@ -5934,7 +5934,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211583401}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 56, y: 0, z: -1}
+  m_LocalPosition: {x: 57.4, y: 0, z: -1}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6198,7 +6198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44124e1cd91e4b7b822f9f764bfb814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  definition: {fileID: 11400000, guid: 228cde31c3baa4b7e812e56b1c838d2a, type: 2}
+  definition: {fileID: 0}
   maxHealth: 0
   currentHealth: 0
 --- !u!136 &1255735213
@@ -7778,7 +7778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44124e1cd91e4b7b822f9f764bfb814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  definition: {fileID: 11400000, guid: e57ca09ee18b44e178e697a2ce1e174d, type: 2}
+  definition: {fileID: 0}
   maxHealth: 0
   currentHealth: 0
 --- !u!54 &1505097627
@@ -7863,7 +7863,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505097624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 56, y: -8, z: -1}
+  m_LocalPosition: {x: 57.4, y: -8, z: -1}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8186,7 +8186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44124e1cd91e4b7b822f9f764bfb814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  definition: {fileID: 11400000, guid: 6a697a66d41d444369ea988c7a80c7aa, type: 2}
+  definition: {fileID: 0}
   maxHealth: 0
   currentHealth: 0
 --- !u!1 &1580732548
