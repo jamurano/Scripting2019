@@ -3,7 +3,6 @@
     <Files>
       <File FileName="Assets/Scripts/ActionCalls.cs" Line="54" Column="1" />
       <File FileName="Assets/Scripts/CharacterMover.cs" Line="5" Column="48" />
-      <File FileName="Assets/Scripts/IntData.cs" Line="15" Column="6" />
       <File FileName="Assets/Scripts/AIWithNavMesh.cs" Line="35" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

@@ -16,26 +16,26 @@ TagManager:
   - 
   - PostProcessing
   - 
+  - TowerA
+  - TowerB
+  - TowerC
   - 
   - 
   - 
+  - EnemyA
+  - EnemyB
+  - EnemyC
   - 
   - 
   - 
+  - ProjectileA
+  - ProjectileB
+  - ProjectileC
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Tile
+  - Ground
   - 
   - 
   m_SortingLayers:
