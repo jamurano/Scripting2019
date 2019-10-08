@@ -4,7 +4,7 @@
       <File FileName="Assets/Scripts/ActionCalls.cs" Line="54" Column="1" />
       <File FileName="Assets/Scripts/CharacterMover.cs" Line="5" Column="48" />
       <File FileName="Assets/Scripts/AIWithNavMesh.cs" Line="35" Column="1" />
-      <File FileName="Assets/Scripts/Collections.cs" Line="7" Column="2" />
+      <File FileName="Assets/Scripts/Collections.cs" Line="36" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
