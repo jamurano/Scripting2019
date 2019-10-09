@@ -1,25 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TimedSpawn : MonoBehaviour
 {
-    public GameObject spawnee;
-    public bool stopSpawning = false;
-    public float spawnTime;
-    public float spawnDelay;
+    public WaitForSeconds wfs;
+    public float holdTime = .01f;
 
-    void Start()
+    public bool CanRun { get; set; } = true;
+
+    public UnityEvent OnRunEvent;
+
+    private void Awake()
     {
-        InvokeRepeating("SpawnObject", spawnTime, spawnDelay);
+        wfs = new WaitForSeconds(holdTime);
     }
 
-    public void SpawnObject()
+    public void Run()
     {
-        Instantiate(spawnee, transform.position, transform.rotation);
-        if (stopSpawning)
+        StartCoroutine(OnStart());
+    }
+
+    private IEnumerator OnStart()
+    {
+        while (CanRun)
         {
-            CancelInvoke("SpawnObject");
+            OnRunEvent.Invoke();
+            yield return wfs;
         }
     }
 }
