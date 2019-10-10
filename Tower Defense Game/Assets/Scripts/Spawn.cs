@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
-    public Object [] prefab;
+    public GameObject prefab;
 
     void Start()
     {

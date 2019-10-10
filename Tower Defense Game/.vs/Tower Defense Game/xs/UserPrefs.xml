@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{15FA4D2F-303A-3464-D1E2-A4F41F7AEA0C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TimedSpawn.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpawnPoints.cs">
     <Files>
-      <File FileName="Assets/Scripts/TimedSpawn.cs" Line="24" Column="6" />
-      <File FileName="Assets/Scripts/SpawnEnemies.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TimedSpawn.cs" Line="9" Column="34" />
+      <File FileName="Assets/Scripts/Spawn.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/SpawnPoints.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
