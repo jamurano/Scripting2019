@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{80F880F1-D579-7500-70C6-4E62ADBDC437}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CreateSOData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Vector3Data.cs">
     <Files>
-      <File FileName="Assets/Scripts/Collections.cs" Line="39" Column="1" />
-      <File FileName="Assets/Scripts/AnimController.cs" Line="11" Column="1" />
-      <File FileName="Assets/Resources/MouseEvents.cs" Line="13" Column="23" />
-      <File FileName="Assets/Scripts/Debugger.cs" Line="9" Column="6" />
-      <File FileName="Assets/Scripts/CreateSOData.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/MonoEventBehaviours.cs" Line="5" Column="2" />
+      <File FileName="Assets/Scripts/GameAction.cs" Line="11" Column="6" />
+      <File FileName="Assets/Scripts/Instancer.cs" Line="8" Column="5" />
+      <File FileName="Assets/Scripts/CinemachineController.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/Vector3Data.cs" Line="5" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
