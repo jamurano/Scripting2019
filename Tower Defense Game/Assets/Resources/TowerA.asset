@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b1034d0c22ca46bf8c4c79cd83f1ad0, type: 3}
+  m_Script: {fileID: 11500000, guid: 7622d1bf55e3b45d39dae1358cd653e7, type: 3}
   m_Name: TowerA
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  projectile: {fileID: 2409913064476664783, guid: 3cb92ac28045b483cac2307f0c7ffb43,
+    type: 3}
+  fireSpeed: 2

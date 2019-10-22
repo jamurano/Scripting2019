@@ -22,10 +22,10 @@ public class ObjectData : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    public void TakeDamage()
     {
         currentHealth = currentHealth - 10;
-        Debug.Log("Took Damage!"); 
+        Debug.Log("Took Damage!");
     }
 
 }

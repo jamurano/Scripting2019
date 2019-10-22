@@ -4,11 +4,40 @@ using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
-    public GameObject prefab;
+    public List <GameObject> SpawnPoints;
+    public List<GameObject> Enemies;
 
-    void Start()
+    public bool canSpawn;
+    public float spawnTimeMin;
+    public float spawnTimeMax;
+
+
+    private void Start()
     {
-        Vector3 position = new Vector3(45, Random.Range(16.0f, -16.0f), -10);
-        Instantiate(prefab, position, Quaternion.identity);
+        canSpawn = true;
+        StartCoroutine(RandSpawn());
+    }
+
+    void SpawnEnemy()
+    {
+        //ERROR: ArrayOutOfIndex only when spawnPointNumber = 0;
+        int spawnPointNumber = Random.Range(0, SpawnPoints.Count);
+        print(spawnPointNumber);
+        GameObject spawnPoint = SpawnPoints[spawnPointNumber];
+        int enemyNumber = Random.Range(0, Enemies.Count);
+        print(spawnPoint);
+       // print(enemyNumber);
+        GameObject enemy = Enemies[enemyNumber];
+        Instantiate(enemy, spawnPoint.transform.position, Quaternion.identity);
+    }
+
+    IEnumerator RandSpawn()
+    {
+        while(canSpawn == true)
+        {
+            float spawnTime = Random.Range(spawnTimeMin, spawnTimeMax);
+            SpawnEnemy();
+            yield return new WaitForSeconds(spawnTime);
+        }
     }
 }

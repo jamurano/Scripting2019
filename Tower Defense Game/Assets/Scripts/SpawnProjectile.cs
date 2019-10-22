@@ -4,8 +4,28 @@ using UnityEngine;
 
 public class SpawnProjectile : MonoBehaviour
 {
-    public void SpawnP()
+    public SO_Tower towerData;
+    public bool canSpawn;
+
+    public void Start()
     {
-        print("Projectile Spawned");
+        canSpawn = true;
+        StartCoroutine(TimedSpawn());
     }
+
+    public void Spawn()
+    {
+        Instantiate(towerData.projectile, transform.position, Quaternion.identity);
+    }
+
+    IEnumerator TimedSpawn()
+    {
+        while(canSpawn == true)
+        {
+            Spawn();
+            yield return new WaitForSeconds(towerData.fireSpeed);
+
+        }
+    }
+
 }

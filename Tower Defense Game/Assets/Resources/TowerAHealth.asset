@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7622d1bf55e3b45d39dae1358cd653e7, type: 3}
-  m_Name: TowerC
+  m_Script: {fileID: 11500000, guid: 4b1034d0c22ca46bf8c4c79cd83f1ad0, type: 3}
+  m_Name: TowerAHealth
   m_EditorClassIdentifier: 
-  projectile: {fileID: 3744305288235120252, guid: d6e166f16515045a5935b4cd1fb373ae,
-    type: 3}
-  fireSpeed: 1.5
+  maxHealth: 100
