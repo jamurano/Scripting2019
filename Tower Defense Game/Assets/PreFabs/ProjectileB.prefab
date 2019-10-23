@@ -118,6 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44124e1cd91e4b7b822f9f764bfb814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  definition: {fileID: 11400000, guid: f2fdebd245f5f401bb5ee1dc3c11b948, type: 2}
+  definition: {fileID: 11400000, guid: 6bcb65d96b6674a5791317eee320094c, type: 2}
   maxHealth: 0
   currentHealth: 0
