@@ -1,15 +1,14 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
-
-public class AIWithNavMesh : MonoBehaviour, IRun, ITest
+public class AiWithNavMesh : MonoBehaviour, IRun, ITest
 {
     private NavMeshAgent agent;
     public Transform player;
 
     public Transform destination;
-
     void Start()
     {
         destination = transform;
@@ -21,7 +20,6 @@ public class AIWithNavMesh : MonoBehaviour, IRun, ITest
         destination = player;
     }
 
-
     private void OnTriggerExit(Collider other)
     {
         destination = transform;
@@ -32,13 +30,20 @@ public class AIWithNavMesh : MonoBehaviour, IRun, ITest
         agent.destination = destination.position;
     }
 
+    public float Speed { get; set; }
+
     public void Run()
     {
-
+        
     }
 
-    public void ITest()
+    public void Run(float f)
     {
+        
+    }
 
+    public void Test()
+    {
+        
     }
 }

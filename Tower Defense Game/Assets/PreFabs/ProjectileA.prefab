@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 2409913064476664782}
   - component: {fileID: 2409913064476664754}
   - component: {fileID: 2409913064476664753}
-  - component: {fileID: 2409913064476664752}
   m_Layer: 0
   m_Name: ProjectileA
   m_TagString: Untagged
@@ -122,32 +121,3 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 6bcb65d96b6674a5791317eee320094c, type: 2}
   maxHealth: 0
   currentHealth: 0
---- !u!114 &2409913064476664752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2409913064476664783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2be63aa0a4505402ea0f5fc64f197c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  holdTime: 0.1
-  OnRunEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11500000, guid: 9bb4e651c1c4e48ddab82f096481e236, type: 3}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null

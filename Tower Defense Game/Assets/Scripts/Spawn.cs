@@ -21,8 +21,9 @@ public class Spawn : MonoBehaviour
     void SpawnEnemy()
     {
         //ERROR: ArrayOutOfIndex only when spawnPointNumber = 0;
-        int spawnPointNumber = Random.Range(0, SpawnPoints.Count);
+        int spawnPointNumber = Random.Range(0, SpawnPoints.Count-1);
         print(spawnPointNumber);
+
         GameObject spawnPoint = SpawnPoints[spawnPointNumber];
         int enemyNumber = Random.Range(0, Enemies.Count);
         print(spawnPoint);

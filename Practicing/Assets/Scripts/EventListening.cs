@@ -1,24 +1,23 @@
-﻿
+﻿  
 using UnityEngine;
 using UnityEngine.Events;
 
-public class EventListening : MonoBehaviour
+public class EventListening : MonoBehaviour, IListen
 {
+    public UnityEvent Event { get; set; }
     public Object IRunObj;
-    public IRun newIRunObj;
-
     public IRun NewIRunObj { get; set; }
 
     public void Start()
     {
-        newIRunObj = IRunObj as IRun;
-        Event.AddListener(newIRunObj.Run);
+        Event = new UnityEvent();
+        NewIRunObj = IRunObj as IRun;
+        Event.AddListener(NewIRunObj.Run);
     }
-
-
+    
     private void OnMouseDown()
     {
         Event.Invoke();
-        Event.RemoveListener(newIRunObj.Run);
+        Event.RemoveListener(NewIRunObj.Run);
     }
 }
