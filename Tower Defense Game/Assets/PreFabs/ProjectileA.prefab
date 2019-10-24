@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 2409913064476664781}
   - component: {fileID: 2409913064476664782}
   - component: {fileID: 2409913064476664754}
-  - component: {fileID: 2409913064476664753}
-  m_Layer: 0
+  - component: {fileID: 5974188266936282532}
+  m_Layer: 22
   m_Name: ProjectileA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
---- !u!114 &2409913064476664753
+--- !u!114 &5974188266936282532
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,9 +115,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2409913064476664783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d44124e1cd91e4b7b822f9f764bfb814, type: 3}
+  m_Script: {fileID: 11500000, guid: be0a1815498874a11ba2384a8b4b0e82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  definition: {fileID: 11400000, guid: 6bcb65d96b6674a5791317eee320094c, type: 2}
-  maxHealth: 0
-  currentHealth: 0
+  enemy: {fileID: 0}

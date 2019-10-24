@@ -11,8 +11,8 @@ public class EnemyAttack : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         canAttack = true;
-        currentTower = transform.parent.gameObject;
-        other.GetComponent<MoveSpeed>().enabled = false;
+        currentTower = other.gameObject;
+        transform.parent.GetComponent<MoveSpeed>().enabled = false;
         StartCoroutine(AttackTimer());
         
     }
@@ -20,6 +20,11 @@ public class EnemyAttack : MonoBehaviour
     public void Attack()
     {
         currentTower.GetComponent<ObjectData>().TakeDamage();
+        
+        if(currentTower.GetComponent<ObjectData>().currentHealth <= 0)
+        {
+            transform.parent.GetComponent<MoveSpeed>().enabled = true;
+        }
     }
 
     IEnumerator AttackTimer()

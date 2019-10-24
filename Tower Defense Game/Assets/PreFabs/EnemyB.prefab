@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1527403864304758728}
   - component: {fileID: 1527403864304758731}
   - component: {fileID: 6062684607585894383}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: EnemyB
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -151,4 +151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c1eaea32e430497c95a039700124574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1527403864304758730}
+  SpawnPoints: []
+  Enemies: []
+  canSpawn: 0
+  spawnTimeMin: 0
+  spawnTimeMax: 0
