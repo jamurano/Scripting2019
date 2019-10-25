@@ -1,18 +1,14 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class BuildManager : MonoBehaviour
 {
-    public static BuildManager instance;
+    public List<GameObject> towers;
+    public GameObject selectedTower;
 
-    void Awake()
+    public void SelectTower(int towerIndex)
     {
-        instance = this;
-    }
-    
-    private GameObject towerToBuild;
-
-    public GameObject GetTowerToBuild()
-    {
-        return towerToBuild;
+        selectedTower = towers[towerIndex];
+        print("Selected Tower " + selectedTower);
     }
 }

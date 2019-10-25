@@ -28,6 +28,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerSpriteBuild.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DragTower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +91,7 @@
       <workItem from="1571872675615" duration="934000" />
       <workItem from="1571874048086" duration="1464000" />
       <workItem from="1571967342219" duration="3366000" />
+      <workItem from="1572036684605" duration="3524000" />
     </task>
     <servers />
   </component>

@@ -7,24 +7,18 @@ public class TowerPlacer : MonoBehaviour
     public Color hoverColor;
     private Color startColor;
 
-    public Button towerSprite;
+    public GameObject selectedTower;
+    public BuildManager bM;
 
     public bool canSelect;
-
-    private void Start()
-    {
-        
-    }
+  
     public void OnMouseDown()
     {
-        Button icon = towerSprite.GetComponent<Button>();
-        //OnMouseDown will select a tower from the Sprites available
+        selectedTower = bM.selectedTower;
+        Vector3 pos = new Vector3(transform.position.x, transform.position.y, transform.position.z - 1);
+        Instantiate(selectedTower, pos, Quaternion.identity);
     }
-
-    public void OnMouseDrag()
-    {
-        //OnMouseDrag allows you to drag the selection to the grid
-    }
+    
     public void OnMouseEnter()
     {
         //hoverColor
