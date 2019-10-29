@@ -20,15 +20,10 @@ public class Spawn : MonoBehaviour
 
     void SpawnEnemy()
     {
-        //ERROR: ArrayOutOfIndex only when spawnPointNumber = 0;
-        int spawnPointNumber = Random.Range(0, SpawnPoints.Count-1);
-        print(spawnPointNumber);
-
-        GameObject spawnPoint = SpawnPoints[spawnPointNumber];
-        int enemyNumber = Random.Range(0, Enemies.Count);
-        print(spawnPoint);
-       // print(enemyNumber);
-        GameObject enemy = Enemies[enemyNumber];
+        var spawnPointNumber = Random.Range(0, SpawnPoints.Count);
+        var spawnPoint = SpawnPoints[spawnPointNumber];
+        var enemyNumber = Random.Range(0, Enemies.Count);
+        var enemy = Enemies[enemyNumber];
         Instantiate(enemy, spawnPoint.transform.position, Quaternion.identity);
     }
 
@@ -36,7 +31,7 @@ public class Spawn : MonoBehaviour
     {
         while(canSpawn == true)
         {
-            float spawnTime = Random.Range(spawnTimeMin, spawnTimeMax);
+            var spawnTime = Random.Range(spawnTimeMin, spawnTimeMax);
             SpawnEnemy();
             yield return new WaitForSeconds(spawnTime);
         }

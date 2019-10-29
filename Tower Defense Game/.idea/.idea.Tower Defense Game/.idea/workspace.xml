@@ -12,8 +12,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundMusic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnProjectile.cs" root0="FORCE_HIGHLIGHTING" />
@@ -30,6 +32,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragTower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundMusic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawn.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +96,8 @@
       <workItem from="1571874048086" duration="1464000" />
       <workItem from="1571967342219" duration="3366000" />
       <workItem from="1572036684605" duration="3524000" />
+      <workItem from="1572294260369" duration="246000" />
+      <workItem from="1572316809437" duration="590000" />
     </task>
     <servers />
   </component>

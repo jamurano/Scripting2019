@@ -10,6 +10,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BackgroundMusic.cs" t="Include" />
           <e p="BuildManager.cs" t="Include" />
           <e p="EnemyAttack.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
