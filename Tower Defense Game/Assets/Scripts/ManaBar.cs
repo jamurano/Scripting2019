@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class ManaBar : MonoBehaviour
@@ -13,30 +11,32 @@ public class ManaBar : MonoBehaviour
 
     void Start()
     {
-        pointIncreasedPerSecond = 1;
+        pointIncreasedPerSecond = 1f;
         updatedMana = 100;
         maxMana = 100;
         manaCost = 25;
     }
 
-
     void Update()
     {
         updatedMana += pointIncreasedPerSecond * Time.deltaTime;
 
-        if(updatedMana > maxMana)
+        if (updatedMana > maxMana)
         {
             updatedMana = 100;
         }
-        if(updatedMana < 0)
+
+        if (updatedMana < 0)
         {
             updatedMana = 0;
         }
+
         manaUi.text = (int) updatedMana + "Mana";
     }
+
     public void UseMana()
     {
-        if(updatedMana >= manaCost)
+        if (updatedMana >= manaCost)
         {
             updatedMana = updatedMana - manaCost;
         }

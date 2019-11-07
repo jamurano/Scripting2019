@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class ObjectData : MonoBehaviour
 {
@@ -15,8 +14,7 @@ public class ObjectData : MonoBehaviour
 
     void Update()
     {
-
-      if(currentHealth <= 0)
+        if(currentHealth <= 0)
         {
             Destroy(gameObject);
         }
@@ -25,7 +23,6 @@ public class ObjectData : MonoBehaviour
     public void TakeDamage()
     {
         currentHealth = currentHealth - 10;
-        Debug.Log("Took Damage!");
     }
 
 }
