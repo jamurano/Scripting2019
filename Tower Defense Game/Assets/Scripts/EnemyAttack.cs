@@ -19,9 +19,9 @@ public class EnemyAttack : MonoBehaviour
 
     public void Attack()
     {
-        currentTower.GetComponent<ObjectData>().TakeDamage();
+        currentTower.GetComponent<HealthData>().TakeDamage();
         
-        if(currentTower.GetComponent<ObjectData>().currentHealth <= 0)
+        if(currentTower.GetComponent<HealthData>().currentHealth <= 0)
         {
             transform.parent.GetComponent<MoveSpeed>().enabled = true;
         }

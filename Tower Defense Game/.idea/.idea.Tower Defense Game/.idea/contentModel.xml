@@ -11,10 +11,12 @@
           <e p="BackgroundMusic.cs" t="Include" />
           <e p="BuildManager.cs" t="Include" />
           <e p="EnemyAttack.cs" t="Include" />
+          <e p="EnemyDrop.cs" t="Include" />
+          <e p="EnemyDropPickup.cs" t="Include" />
+          <e p="HealthData.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
-          <e p="ManaBar.cs" t="Include" />
+          <e p="ManaData.cs" t="Include" />
           <e p="MoveSpeed.cs" t="Include" />
-          <e p="ObjectData.cs" t="Include" />
           <e p="ObjectDefinition.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
           <e p="Projectile.cs" t="Include" />

@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
-public class ObjectData : MonoBehaviour
+public class HealthData : MonoBehaviour
 {
     public ObjectDefinition definition;
     public float maxHealth, currentHealth;
