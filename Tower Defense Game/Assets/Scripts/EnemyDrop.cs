@@ -1,18 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyDrop : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject coin;
+    public Transform enemyPosition;
+    public HealthData currentHealth;
+
+    public void Start()
     {
-        
+        enemyPosition = GetComponent<Transform>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DropCoin()
     {
-        
+        if (currentHealth != null)
+        {
+            Instantiate(coin, enemyPosition.position, Quaternion.identity);
+        }
     }
 }

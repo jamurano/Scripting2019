@@ -1,14 +1,17 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class EnemyDropPickup : MonoBehaviour
+public class EnemyDropPickUp : MonoBehaviour
 {
-    public int pickupQuantity;
+    public EnemyDrop getCoin;
 
-    private void OnMouseUp()
+    public void Start()
     {
-        
+        getCoin = GetComponent<EnemyDrop>();
+    }
+
+    public void OnMouseDown()
+    {
+        getCoin.DropCoin();
+        Destroy(gameObject);
     }
 }

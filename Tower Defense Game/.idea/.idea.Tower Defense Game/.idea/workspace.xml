@@ -22,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundMusic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ManaData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO_Tower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnProjectile.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,15 +40,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ManaBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDefinition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ManaScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ManaData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DropPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDropPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO_Tower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ManaData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDefinition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDrop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDropPickup.cs" />
       </list>
     </option>
   </component>
@@ -118,6 +121,7 @@
       <workItem from="1573178338342" duration="543000" />
       <workItem from="1573178929740" duration="2549000" />
       <workItem from="1573181548272" duration="995000" />
+      <workItem from="1573229759518" duration="5774000" />
     </task>
     <servers />
   </component>

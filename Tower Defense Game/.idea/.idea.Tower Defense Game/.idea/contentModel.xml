@@ -16,6 +16,7 @@
           <e p="HealthData.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="ManaData.cs" t="Include" />
+          <e p="MouseEvents.cs" t="Include" />
           <e p="MoveSpeed.cs" t="Include" />
           <e p="ObjectDefinition.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
