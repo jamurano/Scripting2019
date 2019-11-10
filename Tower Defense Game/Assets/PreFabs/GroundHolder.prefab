@@ -376,7 +376,6 @@ GameObject:
   - component: {fileID: 2587916466087306579}
   - component: {fileID: 2587916466087306578}
   - component: {fileID: 2587916466087306581}
-  - component: {fileID: 2587916466087306577}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -456,19 +455,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2587916466087306577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2587916466087306580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c1eaea32e430497c95a039700124574, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 5236834769924648390, guid: 981486bdad6d34dd5a570e17e43a3c64, type: 3}
 --- !u!1 &2587916466095258951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1595,7 +1581,6 @@ GameObject:
   - component: {fileID: 2587916466299895832}
   - component: {fileID: 2587916466299895835}
   - component: {fileID: 2587916466299895834}
-  - component: {fileID: 2587916466299895814}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -1675,19 +1660,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2587916466299895814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2587916466299895837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c1eaea32e430497c95a039700124574, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 5236834769924648390, guid: 981486bdad6d34dd5a570e17e43a3c64, type: 3}
 --- !u!1 &2587916466330826347
 GameObject:
   m_ObjectHideFlags: 0
@@ -2792,7 +2764,6 @@ GameObject:
   - component: {fileID: 2587916466852101974}
   - component: {fileID: 2587916466852101993}
   - component: {fileID: 2587916466852101992}
-  - component: {fileID: 2587916466852101972}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -2872,19 +2843,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2587916466852101972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2587916466852101995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c1eaea32e430497c95a039700124574, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 5236834769924648390, guid: 981486bdad6d34dd5a570e17e43a3c64, type: 3}
 --- !u!1 &2587916466890408441
 GameObject:
   m_ObjectHideFlags: 0
@@ -3807,7 +3765,6 @@ GameObject:
   - component: {fileID: 2587916467140251813}
   - component: {fileID: 2587916467140251812}
   - component: {fileID: 2587916467140251815}
-  - component: {fileID: 2587916467140251811}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -3887,19 +3844,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2587916467140251811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2587916467140251814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c1eaea32e430497c95a039700124574, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 5236834769924648390, guid: 981486bdad6d34dd5a570e17e43a3c64, type: 3}
 --- !u!1 &2587916467147718356
 GameObject:
   m_ObjectHideFlags: 0
@@ -4003,7 +3947,6 @@ GameObject:
   - component: {fileID: 2587916467204328458}
   - component: {fileID: 2587916467204328461}
   - component: {fileID: 2587916467204328460}
-  - component: {fileID: 2587916467204328456}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -4083,19 +4026,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2587916467204328456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2587916467204328463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c1eaea32e430497c95a039700124574, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 5236834769924648390, guid: 981486bdad6d34dd5a570e17e43a3c64, type: 3}
 --- !u!1 &2587916467213236344
 GameObject:
   m_ObjectHideFlags: 0

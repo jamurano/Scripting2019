@@ -13,5 +13,6 @@ public class EnemyDropPickUp : MonoBehaviour
     {
         getCoin.DropCoin();
         Destroy(gameObject);
+        Debug.Log(message: "Coin Destroyed");
     }
 }
