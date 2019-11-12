@@ -1,18 +1,19 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
-public class EnemyDropPickUp : MonoBehaviour
+public class EnemyDropPickup : MonoBehaviour
 {
-    public EnemyDrop getCoin;
+    public CoinData coinManager;
+    public void OnMouseDown()
+    {
+        coinManager.AddCoin();
+        Destroy(gameObject);
+        Debug.Log(message: "Coin Destroyed");
+        
+    }
 
     public void Start()
     {
-        getCoin = GetComponent<EnemyDrop>();
-    }
-
-    public void OnMouseDown()
-    {
-        getCoin.DropCoin();
-        Destroy(gameObject);
-        Debug.Log(message: "Coin Destroyed");
+       coinManager = GameObject.Find("Coin Manager").GetComponent<CoinData>();
     }
 }

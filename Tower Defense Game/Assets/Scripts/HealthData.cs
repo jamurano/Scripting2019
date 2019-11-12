@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
-
+using UnityEngine.Events;
 public class HealthData : MonoBehaviour
 {
     public ObjectDefinition definition;
     public float maxHealth, currentHealth;
+
+    public UnityEvent deathEvent;
 
     void Start()
     {
@@ -15,6 +17,7 @@ public class HealthData : MonoBehaviour
     {
         if(currentHealth <= 0)
         {
+            deathEvent.Invoke();
             Destroy(gameObject);
         }
     }

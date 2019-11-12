@@ -10,13 +10,21 @@ public class TowerPlacer : MonoBehaviour
     public GameObject selectedTower;
     public BuildManager bM;
 
-    public bool canSelect;
+    public CoinData coinManager;
   
     public void OnMouseDown()
     {
-        selectedTower = bM.selectedTower;
-        Vector3 pos = new Vector3(transform.position.x, transform.position.y, transform.position.z - 1);
-        Instantiate(selectedTower, pos, Quaternion.identity);
+        if (bM.selectedTower != null)
+        {
+            selectedTower = bM.selectedTower;
+            coinManager.SubtractCoin(selectedTower.GetComponent<SpawnProjectile>().towerData.cost);
+            Vector3 pos = new Vector3(transform.position.x, transform.position.y, transform.position.z - 1);
+            Instantiate(selectedTower, pos, Quaternion.identity);
+        }
+        else
+        {
+            print("No tower selected");
+        }
     }
     
     public void OnMouseEnter()

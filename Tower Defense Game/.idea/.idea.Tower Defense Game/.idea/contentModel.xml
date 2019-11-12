@@ -10,16 +10,18 @@
         <e p="Scripts" t="Include">
           <e p="BackgroundMusic.cs" t="Include" />
           <e p="BuildManager.cs" t="Include" />
+          <e p="CoinData.cs" t="Include" />
           <e p="DestroyAfterDistance.cs" t="Include" />
           <e p="EnemyAttack.cs" t="Include" />
           <e p="EnemyDrop.cs" t="Include" />
           <e p="EnemyDropPickup.cs" t="Include" />
+          <e p="GameOver.cs" t="Include" />
           <e p="HealthData.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
-          <e p="ManaData.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="MoveSpeed.cs" t="Include" />
           <e p="ObjectDefinition.cs" t="Include" />
+          <e p="OnStart.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
           <e p="Projectile.cs" t="Include" />
           <e p="SO_Tower.cs" t="Include" />

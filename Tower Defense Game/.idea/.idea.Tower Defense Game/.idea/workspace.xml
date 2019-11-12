@@ -13,16 +13,18 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyDropPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyDrop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectDefinition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundMusic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ManaData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO_Tower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAfterDistance.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,23 +38,28 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerSpriteBuild.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragTower.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundMusic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ManaBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ManaScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DropPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SO_Tower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDefinition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDrop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterDistance.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDropPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDrop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ManaData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDropPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SO_Tower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoinData.cs" />
       </list>
     </option>
   </component>
@@ -125,6 +132,8 @@
       <workItem from="1573181548272" duration="995000" />
       <workItem from="1573229759518" duration="5774000" />
       <workItem from="1573362920567" duration="1558000" />
+      <workItem from="1573586053241" duration="4659000" />
+      <workItem from="1573592497545" duration="1868000" />
     </task>
     <servers />
   </component>
