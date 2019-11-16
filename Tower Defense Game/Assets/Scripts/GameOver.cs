@@ -4,43 +4,43 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
-//    public static bool GameIsOver = false;
-//    public GameObject gameOverUI;
-//    public GameObject castle;
-//
-//    private void OnTriggerEnter(Collider other)
-//    {
-//        castle = other.gameObject;
-//        Destroy(gameObject);
-//    }
-//
-//    private void Update()
-//    {
-//        if (OnTriggerEnter(Collider castle))
-//        {
-//            if (GameIsOver)
-//            {
-//                EndGame();
-//            }
-//        }
-//    }
-//
-//    void EndGame()
-//    {
-//        gameOverUI.SetActive(true);
-//        Time.timeScale = 0f;
-//        GameIsOver = true;
-//    }
-//
-//    public void LoadMenu()
-//    {
-//        Time.timeScale = 1f;
-//        SceneManager.LoadScene("Menu");
-//    }
-//
-//    public void QuitGame()
-//    {
-//        Debug.Log("Quitting Game...");
-//        Application.Quit();
-//    }
+    public static bool GameIsOver;
+
+    public GameObject gameOverUI;
+
+    public GameObject enemy;
+
+    private void Start()
+    {
+        GameIsOver = false;
+    }
+
+    private void Update()
+    {
+        if (GameIsOver)
+            return;
+
+        if (gameObject)
+        {
+            EndGame();
+        }
+        
+    }
+
+    void EndGame()
+    {
+        GameIsOver = true;
+        
+        gameOverUI.SetActive(true);
+    }
+
+    public void Retry()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void Menu()
+    {
+        
+    }
 }
