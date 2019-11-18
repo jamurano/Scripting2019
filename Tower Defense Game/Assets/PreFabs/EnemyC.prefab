@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 6836605933868128882}
   - component: {fileID: 6836605933868128885}
   - component: {fileID: 6836605933868128884}
+  - component: {fileID: 6466236532959880770}
   m_Layer: 18
   m_Name: EnemyC
   m_TagString: Enemy
@@ -185,6 +186,22 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 64034626ff4f745b380fc1e560a8e4bb, type: 2}
   maxHealth: 0
   currentHealth: 0
+  deathEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6466236532959880770}
+        m_MethodName: DropCoin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &6836605933868128884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,3 +215,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: -5
+--- !u!114 &6466236532959880770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6836605933868128887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae2cc16ef679247648b0c23dc02fd333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: {fileID: 6028883725175341507, guid: 8cf83a799ef294a92a0585f86a405e14, type: 3}
