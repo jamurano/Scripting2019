@@ -21,7 +21,6 @@
           <e p="MouseEvents.cs" t="Include" />
           <e p="MoveSpeed.cs" t="Include" />
           <e p="ObjectDefinition.cs" t="Include" />
-          <e p="OnStart.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
           <e p="Projectile.cs" t="Include" />
           <e p="SO_Tower.cs" t="Include" />

@@ -24,7 +24,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundMusic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO_Tower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAfterDistance.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,7 +45,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ManaScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DropPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDefinition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterDistance.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
@@ -60,6 +58,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterDistance.cs" />
       </list>
     </option>
   </component>
@@ -135,6 +134,8 @@
       <workItem from="1573586053241" duration="4659000" />
       <workItem from="1573592497545" duration="1868000" />
       <workItem from="1573871726740" duration="1923000" />
+      <workItem from="1574301135542" duration="135000" />
+      <workItem from="1574301371213" duration="220000" />
     </task>
     <servers />
   </component>

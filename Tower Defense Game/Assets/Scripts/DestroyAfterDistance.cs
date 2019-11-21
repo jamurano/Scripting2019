@@ -2,11 +2,11 @@
 
 public class DestroyAfterDistance : MonoBehaviour
 {
-    public GameObject movingObj;
+    public GameObject projectile;
 
     public void Update()
     {
-        if(Vector3.Distance(transform.position, movingObj.transform.position) > 20)
-            Destroy(movingObj);
+        if(Vector3.Distance(transform.position, projectile.transform.position) > 20)
+            Destroy(projectile);
     }
 }
