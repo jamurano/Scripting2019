@@ -57,8 +57,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterDistance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
       </list>
     </option>
   </component>
@@ -136,6 +136,7 @@
       <workItem from="1573871726740" duration="1923000" />
       <workItem from="1574301135542" duration="135000" />
       <workItem from="1574301371213" duration="220000" />
+      <workItem from="1574736523828" duration="180000" />
     </task>
     <servers />
   </component>
