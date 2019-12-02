@@ -5,7 +5,7 @@ public class HealthData : MonoBehaviour
     public ObjectDefinition definition;
     public float maxHealth, currentHealth;
 
-    public UnityEvent deathEvent;
+    public UnityEvent deathEvent, onTakeDamageEvent;
 
     void Start()
     {
@@ -24,6 +24,7 @@ public class HealthData : MonoBehaviour
 
     public void TakeDamage()
     {
+        onTakeDamageEvent.Invoke();
         currentHealth = currentHealth - 10;
     }
 

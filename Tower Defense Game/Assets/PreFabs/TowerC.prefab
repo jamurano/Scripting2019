@@ -169,6 +169,11 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: a00324078e7c8497692f373975f0f9d5, type: 2}
   maxHealth: 0
   currentHealth: 0
+  deathEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1246241415281692155
 MonoBehaviour:
   m_ObjectHideFlags: 0
