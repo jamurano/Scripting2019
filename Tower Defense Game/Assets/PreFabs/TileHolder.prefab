@@ -107,7 +107,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220263164796987
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,7 +215,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220263186802829
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,7 +323,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220263238060109
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,7 +431,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220263491861797
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,7 +539,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220263514544006
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,7 +647,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220263584673261
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,7 +755,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220263609456528
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,7 +863,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220263808816800
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,7 +971,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220263924872150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,7 +1079,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220263933034855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,7 +1187,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220263967355283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1295,7 +1295,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264025840690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,7 +1403,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264084491003
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,7 +1511,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264216164242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,7 +1619,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264249280553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,7 +1727,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264249559513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,7 +1835,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264317416898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,7 +1943,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264361155262
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,7 +2051,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264640017287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,7 +2159,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264685074502
 GameObject:
   m_ObjectHideFlags: 0
@@ -2322,7 +2322,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264940708754
 GameObject:
   m_ObjectHideFlags: 0
@@ -2430,7 +2430,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264989372228
 GameObject:
   m_ObjectHideFlags: 0
@@ -2538,7 +2538,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220264992399143
 GameObject:
   m_ObjectHideFlags: 0
@@ -2646,7 +2646,7 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
 --- !u!1 &2151220265140481211
 GameObject:
   m_ObjectHideFlags: 0
@@ -2754,4 +2754,4 @@ MonoBehaviour:
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
   selectedTower: {fileID: 0}
   bM: {fileID: 0}
-  canSelect: 0
+  coinManager: {fileID: 0}
