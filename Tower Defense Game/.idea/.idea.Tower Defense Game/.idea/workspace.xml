@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyDropPickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnTriggerEnterEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyDrop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,7 +49,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DropPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDefinition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDrop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ManaData.cs" />
@@ -58,7 +58,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterDistance.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerDestroy.cs" />
@@ -66,6 +65,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerStayEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerExitEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerEnterEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
       </list>
     </option>
   </component>
@@ -149,6 +151,7 @@
       <workItem from="1575330453146" duration="1397000" />
       <workItem from="1575333345070" duration="1101000" />
       <workItem from="1575398167425" duration="9000" />
+      <workItem from="1575399583884" duration="1886000" />
     </task>
     <servers />
   </component>

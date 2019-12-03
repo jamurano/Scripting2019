@@ -11,6 +11,8 @@ public class Projectile : MonoBehaviour
     }
     public void Attack()
     {
+        print(enemy);
+        print(enemy.GetComponent<HealthData>());
         enemy.GetComponent<HealthData>().TakeDamage();
     }
 }

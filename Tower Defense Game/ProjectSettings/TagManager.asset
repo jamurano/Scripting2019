@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - EnemySpawnPoint
   - music
+  - tower
   layers:
   - Default
   - TransparentFX

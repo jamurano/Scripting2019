@@ -4,25 +4,10 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="48 Particle Effect Pack" t="Include">
-          <e p="Script" t="Include">
-            <e p="csDestroyEffect.cs" t="Include" />
-            <e p="csMouseOrbit.cs" t="Include" />
-            <e p="csParticleEffectPackLightControl.cs" t="Include" />
-            <e p="csParticleMove.cs" t="Include" />
-            <e p="csShowAllEffect.cs" t="Include" />
-          </e>
-          <e p="ShurikenEffectEditor" t="Include">
-            <e p="csShurikenEffectChanger.cs" t="Include" />
-            <e p="csShurikenEffectEditor.cs" t="Include" />
-          </e>
-        </e>
         <e p="Scripts" t="Include">
-          <e p="AnimStates.cs" t="Include" />
           <e p="BackgroundMusic.cs" t="Include" />
           <e p="BuildManager.cs" t="Include" />
           <e p="CoinData.cs" t="Include" />
-          <e p="DestroyAfterDistance.cs" t="Include" />
           <e p="EnemyAttack.cs" t="Include" />
           <e p="EnemyDrop.cs" t="Include" />
           <e p="EnemyDropPickup.cs" t="Include" />
@@ -33,6 +18,7 @@
           <e p="MoveSpeed.cs" t="Include" />
           <e p="ObjectDefinition.cs" t="Include" />
           <e p="OnTriggerDestroy.cs" t="Include" />
+          <e p="OnTriggerEnterEvent.cs" t="Include" />
           <e p="OnTriggerExitEvent.cs" t="Include" />
           <e p="OnTriggerStayEvent.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />

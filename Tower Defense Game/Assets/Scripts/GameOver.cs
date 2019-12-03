@@ -5,42 +5,25 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
     public static bool GameIsOver;
-
     public GameObject gameOverUI;
 
-    public GameObject enemy;
-
-    private void Start()
-    {
-        GameIsOver = false;
-    }
-
-    private void Update()
-    {
-        if (GameIsOver)
-            return;
-
-        if (gameObject)
-        {
-            EndGame();
-        }
-        
-    }
-
-    void EndGame()
+    public string mainMenu;
+    public string gameScene;
+    
+    public void EndGame()
     {
         GameIsOver = true;
-        
+        Time.timeScale = 0f;
         gameOverUI.SetActive(true);
     }
 
     public void Retry()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(gameScene);
     }
 
     public void Menu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(mainMenu);
     }
 }

@@ -10,19 +10,29 @@ public class EnemyAttack : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        canAttack = true;
-        currentTower = other.gameObject;
-        transform.parent.GetComponent<MoveSpeed>().enabled = false;
-        StartCoroutine(AttackTimer());
-        
+        if (other.tag == "tower")
+        {
+            canAttack = true;
+            currentTower = other.gameObject;
+            transform.parent.GetComponent<MoveSpeed>().enabled = false;
+            StartCoroutine(AttackTimer());
+        }
     }
-// Make ontriggerenter only detect towers
     public void Attack()
     {
-        currentTower.GetComponent<HealthData>().TakeDamage();
-        
-        if(currentTower.GetComponent<HealthData>().currentHealth <= 0)
+        if (currentTower != null)
         {
+            currentTower.GetComponent<HealthData>().TakeDamage();
+
+            if (currentTower.GetComponent<HealthData>().currentHealth <= 0)
+            {
+                canAttack = false;
+                transform.parent.GetComponent<MoveSpeed>().enabled = true;
+            }
+        }
+        else
+        {
+            canAttack = false;
             transform.parent.GetComponent<MoveSpeed>().enabled = true;
         }
     }

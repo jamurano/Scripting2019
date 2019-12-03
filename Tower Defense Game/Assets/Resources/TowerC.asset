@@ -15,3 +15,4 @@ MonoBehaviour:
   projectile: {fileID: 3744305288235120252, guid: d6e166f16515045a5935b4cd1fb373ae,
     type: 3}
   fireSpeed: 1.5
+  cost: 3
