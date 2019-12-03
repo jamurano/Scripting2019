@@ -1,22 +1,22 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameOver : MonoBehaviour
+public class LevelComplete : MonoBehaviour
 {
-    public static bool GameIsOver;
-    public GameObject gameOverUI;
+    public static bool LevelIsComplete;
+    public GameObject levelCompleteUI;
 
     public string mainMenu;
     public string gameScene;
     
-    public void EndGame()
+    public void CompleteLevel()
     {
-        GameIsOver = true;
+        LevelIsComplete = true;
         Time.timeScale = 0f;
-        gameOverUI.SetActive(true);
+        levelCompleteUI.SetActive(true);
     }
 
-    public void Retry()
+    public void NextLevel()
     {
         SceneManager.LoadScene(gameScene);
     }

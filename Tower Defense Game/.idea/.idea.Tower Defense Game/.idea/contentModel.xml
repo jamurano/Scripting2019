@@ -13,6 +13,7 @@
           <e p="EnemyDropPickup.cs" t="Include" />
           <e p="GameOver.cs" t="Include" />
           <e p="HealthData.cs" t="Include" />
+          <e p="LevelComplete.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="MoveSpeed.cs" t="Include" />
