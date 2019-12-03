@@ -16,7 +16,7 @@ public class EnemyAttack : MonoBehaviour
         StartCoroutine(AttackTimer());
         
     }
-
+// Make ontriggerenter only detect towers
     public void Attack()
     {
         currentTower.GetComponent<HealthData>().TakeDamage();

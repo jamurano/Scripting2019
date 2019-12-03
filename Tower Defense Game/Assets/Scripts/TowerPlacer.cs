@@ -11,20 +11,37 @@ public class TowerPlacer : MonoBehaviour
     public BuildManager bM;
 
     public CoinData coinManager;
-  
+
+    public bool hasTower = false;
+    public HealthData towerHealth;
+
     public void OnMouseDown()
     {
-        if (bM.selectedTower != null)
-        {
-            selectedTower = bM.selectedTower;
-            coinManager.SubtractCoin(selectedTower.GetComponent<SpawnProjectile>().towerData.cost);
-            Vector3 pos = new Vector3(transform.position.x, transform.position.y, transform.position.z - 1);
-            Instantiate(selectedTower, pos, Quaternion.identity);
+        if (hasTower == false)
+        { 
+            if (bM.selectedTower != null)
+            {
+                GameObject tower;
+                selectedTower = bM.selectedTower;
+                coinManager.SubtractCoin(selectedTower.GetComponent<SpawnProjectile>().towerData.cost);
+                Vector3 pos = new Vector3(transform.position.x, transform.position.y, transform.position.z - 1);
+                tower = Instantiate(selectedTower, pos, Quaternion.identity);
+                towerHealth = tower.GetComponent<HealthData>();
+                towerHealth.deathEvent.AddListener(OnTowerDestroyed);
+
+                hasTower = true;
+                bM.selectedTower = null; 
+            }
+            else
+            {
+                print("No tower selected");
+            }
         }
-        else
-        {
-            print("No tower selected");
-        }
+    }
+
+    public void OnTowerDestroyed()
+    {
+        hasTower = false;
     }
     
     public void OnMouseEnter()

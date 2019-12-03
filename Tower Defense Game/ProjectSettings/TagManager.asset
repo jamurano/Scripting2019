@@ -22,9 +22,9 @@ TagManager:
   - TowerA
   - TowerB
   - TowerC
-  - 
+  - ProjectileDeleter
   - AttackTrigger
-  - 
+  - EnemyDeleter
   - EnemyA
   - EnemyB
   - EnemyC

@@ -24,12 +24,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundMusic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimStates.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnTriggerExitEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnTriggerStayEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnTriggerDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SO_Tower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyAfterDistance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnProjectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveSpeed.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -42,7 +46,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ManaBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ManaScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DropPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDefinition.cs" />
@@ -55,11 +58,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDropPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO_Tower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterDistance.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnProjectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerStayEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerExitEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" />
       </list>
     </option>
   </component>
@@ -140,6 +148,8 @@
       <workItem from="1574736523828" duration="180000" />
       <workItem from="1574995116511" duration="169000" />
       <workItem from="1575321778756" duration="553000" />
+      <workItem from="1575330453146" duration="1397000" />
+      <workItem from="1575333345070" duration="1101000" />
     </task>
     <servers />
   </component>

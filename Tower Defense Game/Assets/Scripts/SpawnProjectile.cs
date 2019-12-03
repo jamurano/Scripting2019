@@ -6,13 +6,21 @@ public class SpawnProjectile : MonoBehaviour
 {
     public SO_Tower towerData;
     public bool canSpawn;
+    public bool timedSpawnRunning = false;
 
-    public void Start()
+    public void StartSpawn()
     {
         canSpawn = true;
-        StartCoroutine(TimedSpawn());
+        if (timedSpawnRunning == false)
+        {
+            StartCoroutine(TimedSpawn());
+        }
     }
 
+    public void StopSpawn()
+    {
+        canSpawn = false;
+    }
     public void Spawn()
     {
         Instantiate(towerData.projectile, transform.position, Quaternion.identity);
@@ -20,12 +28,15 @@ public class SpawnProjectile : MonoBehaviour
 
     IEnumerator TimedSpawn()
     {
+        timedSpawnRunning = true;
         while(canSpawn == true)
         {
             Spawn();
             yield return new WaitForSeconds(towerData.fireSpeed);
 
         }
+
+        timedSpawnRunning = false;
     }
 
 }
