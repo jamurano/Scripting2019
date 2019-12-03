@@ -158,6 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canAttack: 1
   attackTime: 1
+  anim: {fileID: 0}
 --- !u!1 &6183194711404223093
 GameObject:
   m_ObjectHideFlags: 0

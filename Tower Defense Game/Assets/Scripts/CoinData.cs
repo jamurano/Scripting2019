@@ -26,6 +26,7 @@ public class CoinData : MonoBehaviour
 
    public void UpdateText()
    {
+       print(coinText);
        coinText.text = currentCoins.ToString();
    }
     

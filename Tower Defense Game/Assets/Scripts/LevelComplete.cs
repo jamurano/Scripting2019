@@ -8,7 +8,7 @@ public class LevelComplete : MonoBehaviour
 
     public string mainMenu;
     public string gameScene;
-    
+
     public void CompleteLevel()
     {
         LevelIsComplete = true;

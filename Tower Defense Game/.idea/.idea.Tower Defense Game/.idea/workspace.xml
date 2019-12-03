@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnTriggerExitEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaitForSec.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnTriggerStayEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelComplete.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnTriggerDestroy.cs" root0="FORCE_HIGHLIGHTING" />
@@ -43,7 +44,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerSpriteBuild.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragTower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundMusic.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Spawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ManaBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ManaScript.cs" />
@@ -57,7 +57,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDropPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SO_Tower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoinData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyAfterDistance.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerPlacer.cs" />
@@ -65,11 +64,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnProjectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerStayEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerExitEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OnTriggerEnterEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelComplete.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaitForSec.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoinData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveSpeed.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" />
       </list>
     </option>
   </component>
@@ -153,7 +156,9 @@
       <workItem from="1575330453146" duration="1397000" />
       <workItem from="1575333345070" duration="1101000" />
       <workItem from="1575398167425" duration="9000" />
-      <workItem from="1575399583884" duration="2533000" />
+      <workItem from="1575399583884" duration="2726000" />
+      <workItem from="1575408345100" duration="10000" />
+      <workItem from="1575408482363" duration="1915000" />
     </task>
     <servers />
   </component>

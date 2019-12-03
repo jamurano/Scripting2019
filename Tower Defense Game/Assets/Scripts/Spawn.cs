@@ -36,4 +36,9 @@ public class Spawn : MonoBehaviour
             yield return new WaitForSeconds(spawnTime);
         }
     }
+
+    public void StopSpawn()
+    {
+        canSpawn = false;
+    }
 }

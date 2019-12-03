@@ -7,7 +7,7 @@ public class EnemyAttack : MonoBehaviour
     public bool canAttack;
     private GameObject currentTower;
     public float attackTime;
-
+    public Animator anim;
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "tower")
@@ -16,7 +16,10 @@ public class EnemyAttack : MonoBehaviour
             currentTower = other.gameObject;
             transform.parent.GetComponent<MoveSpeed>().enabled = false;
             StartCoroutine(AttackTimer());
+            print(anim);
+            anim.SetBool("isAttacking", true);
         }
+        // variable in inspector null even when set
     }
     public void Attack()
     {
@@ -28,12 +31,14 @@ public class EnemyAttack : MonoBehaviour
             {
                 canAttack = false;
                 transform.parent.GetComponent<MoveSpeed>().enabled = true;
+                anim.SetBool("isAttacking", false);
             }
         }
         else
         {
             canAttack = false;
             transform.parent.GetComponent<MoveSpeed>().enabled = true;
+            anim.SetBool("isAttacking", false);
         }
     }
 

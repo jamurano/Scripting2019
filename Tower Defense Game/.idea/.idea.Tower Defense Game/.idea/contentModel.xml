@@ -28,6 +28,7 @@
           <e p="Spawn.cs" t="Include" />
           <e p="SpawnProjectile.cs" t="Include" />
           <e p="TowerPlacer.cs" t="Include" />
+          <e p="WaitForSec.cs" t="Include" />
         </e>
         <e p="UnityAssets" t="Include">
           <e p="Cartoon Castle Building Kit" t="Include">
