@@ -19,21 +19,21 @@ TagManager:
   - 
   - PostProcessing
   - PickUps
-  - TowerA
-  - TowerB
-  - TowerC
+  - Towers
+  - 
+  - 
   - ProjectileDeleter
   - AttackTrigger
   - EnemyDeleter
-  - EnemyA
-  - EnemyB
-  - EnemyC
+  - Enemies
   - 
   - 
   - 
-  - ProjectileA
-  - ProjectileB
-  - ProjectileC
+  - 
+  - 
+  - Projectile
+  - 
+  - 
   - 
   - 
   - 

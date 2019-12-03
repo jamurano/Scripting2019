@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2145071570}
   - component: {fileID: 2145071571}
   - component: {fileID: 3269560024694926585}
-  m_Layer: 14
+  m_Layer: 16
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 1527403864304758728}
   - component: {fileID: 1527403864304758731}
   - component: {fileID: 7372880746692609252}
-  m_Layer: 17
+  m_Layer: 16
   m_Name: EnemyB
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 843389323300402681}
   - component: {fileID: 7509522433069641390}
   - component: {fileID: 5619613732303874657}
-  m_Layer: 17
+  m_Layer: 16
   m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}

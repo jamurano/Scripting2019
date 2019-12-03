@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 290634118}
   - component: {fileID: 1439415545460338314}
   - component: {fileID: 290634119}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1468456073197498173}
   - component: {fileID: 5239154097038828160}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ GameObject:
   - component: {fileID: 1246241415241943784}
   - component: {fileID: 1246241415241943799}
   - component: {fileID: 1246241415281692155}
-  m_Layer: 12
+  m_Layer: 10
   m_Name: TowerC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,3 +226,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerData: {fileID: 11400000, guid: da7e9687bfd984faea0205f8c6bcffa0, type: 2}
   canSpawn: 1
+  timedSpawnRunning: 0

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7850689629567231230}
   - component: {fileID: 8060434872610741628}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 3782654180496627095}
   - component: {fileID: 2743537782907671761}
   - component: {fileID: -5805032257703791811}
-  m_Layer: 23
+  m_Layer: 22
   m_Name: ProjectileB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
