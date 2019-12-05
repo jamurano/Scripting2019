@@ -59,6 +59,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canAttack: 1
   attackTime: 1
+  anim: {fileID: 0}
 --- !u!1 &642725883126056575
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,7 +257,7 @@ Transform:
   m_GameObject: {fileID: 6884191584788091441}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.94, y: 0, z: 0}
-  m_LocalScale: {x: 6.972473, y: 1.6081958, z: 1}
+  m_LocalScale: {x: 6.972473, y: 1.6081958, z: 1.6521}
   m_Children: []
   m_Father: {fileID: 1246241415241943787}
   m_RootOrder: 2

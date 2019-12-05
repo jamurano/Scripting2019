@@ -17,7 +17,7 @@ public class EnemyAttack : MonoBehaviour
             transform.parent.GetComponent<MoveSpeed>().enabled = false;
             StartCoroutine(AttackTimer());
             print(anim);
-            anim.SetBool("isAttacking", true);
+            anim.SetBool("IsAttacking", true);
         }
         // variable in inspector null even when set
     }
@@ -31,14 +31,14 @@ public class EnemyAttack : MonoBehaviour
             {
                 canAttack = false;
                 transform.parent.GetComponent<MoveSpeed>().enabled = true;
-                anim.SetBool("isAttacking", false);
+                anim.SetBool("IsAttacking", false);
             }
         }
         else
         {
             canAttack = false;
             transform.parent.GetComponent<MoveSpeed>().enabled = true;
-            anim.SetBool("isAttacking", false);
+            anim.SetBool("IsAttacking", false);
         }
     }
 

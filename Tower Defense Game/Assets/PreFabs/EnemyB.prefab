@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2145071571}
   - component: {fileID: 3269560024694926585}
   m_Layer: 14
-  m_Name: GameObject
+  m_Name: AttackObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,8 +58,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canAttack: 1
-  attackTime: 1
-  anim: {fileID: 0}
+  attackTime: 3
+  anim: {fileID: 7509522433069641390}
 --- !u!1 &1527403864304758730
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,7 +175,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: -5
-  anim: {fileID: 7509522433069641390}
 --- !u!114 &7372880746692609252
 MonoBehaviour:
   m_ObjectHideFlags: 0
